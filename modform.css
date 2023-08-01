@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+  .the-mb-3 {
+    margin-bottom: 15px;
+  }
+
+  .the-main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+  }
+
+  .the-form-wrapper {
+    margin: 0 auto;
+    max-width: 570px;
+    width: 100%;
+    background: white;
+    padding: 40px;
+  }
+
+  .the-img {
+    display: block;
+    margin: 0 auto 45px;
+  }
+
+  .the-input-wrapp > div {
+    display: flex;
+    gap: 20px;
+  }
+
+  .the-input-flex {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+  }
+  .the-input-flex > div {
+    width: 50%;
+  }
+  .the-form-input {
+    width: 100%;
+    padding: 13px 22px;
+    border-radius: 5px;
+    border: 1px solid #dde3ec;
+    background: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    color: #536387;
+    outline: none;
+    resize: none;
+  }
+  .the-form-input::placeholder,
+  select.the-form-input,
+  .the-form-input[type='date']::-webkit-datetime-edit-text,
+  .the-form-input[type='date']::-webkit-datetime-edit-month-field,
+  .the-form-input[type='date']::-webkit-datetime-edit-day-field,
+  .the-form-input[type='date']::-webkit-datetime-edit-year-field {
+    color: rgba(83, 99, 135, 0.5);
+  }
+
+  .the-form-input:focus {
+    border-color: #6a64f1;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+  }
+  .the-form-label {
+    color: #07074D;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .the-form-file-flex {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .the-form-file-flex .the-form-label {
+    margin-bottom: 0;
+  }
+  .the-form-file {
+    font-size: 14px;
+    line-height: 24px;
+    color: #536387;
+  }
+  .the-form-file::-webkit-file-upload-button {
+    display: none;
+  }
+  .the-form-file:before {
+    content: 'Upload file';
+    display: inline-block;
+    background: #EEEEEE;
+    border: 0.5px solid #FBFBFB;
+    box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    padding: 3px 12px;
+    outline: none;
+    white-space: nowrap;
+    cursor: pointer;
+    color: #637381;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    margin-right: 10px;
+  }
+
+  .the-btn {
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 14px 25px;
+    border: none;
+    font-weight: 500;
+    background-color: #6a64f1;
+    color: white;
+    cursor: pointer;
+    margin-top: 25px;
+  }
+  .the-btn:hover {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  .the-w-45 {
+    width: 45%;
+  }
+
+  #blingbling{
+    width: 1920px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }

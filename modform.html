@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modform</title>
+    <link rel="stylesheet" href="modform.css">
+</head>
+<body>
+    <div class="the-main-wrapper">
+        <div class="the-form-wrapper">
+           <img id="blingbling" src="new yt pfppp.png">
+          <form action="formprocessor.html" method="get">
+            <div class="the-input-flex">
+              <div>
+                <label for="firstname" class="the-form-label"> First Name </label>
+                <input
+                  type="text"
+                  name="First Name"
+                  id="firstname"
+                  placeholder="Your first name"
+                  class="the-form-input"
+                  required
+                />
+              </div>
+      
+              <div>
+                <label for="lastname" class="the-form-label"> Last Name </label>
+                <input
+                  type="text"
+                  name="Last Name"
+                  id="lastname"
+                  placeholder="Your last name"
+                  class="the-form-input"
+                  required
+                />
+              </div>
+            </div>
+      
+            <div class="the-input-flex">
+              <div>
+                  <label for="email" class="the-form-label"> Email </label>
+                  <input
+                  type="email"
+                  name="Email"
+                  id="email"
+                  placeholder="example@email.com"
+                  class="the-form-input"
+                  required
+                  />
+              </div>
+      
+              <div>
+                  <label class="the-form-label">Gender</label>
+      
+                  <select class="the-form-input" name="Gender" id="gender">
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="others">Others</option>
+                  </select>
+              </div>
+            </div>
+      
+            <div class="the-mb-3 the-input-wrapp">
+              <label for="phone" class="the-form-label"> Phone </label>
+      
+              <div>
+                <input
+                  type="number"
+                  name="Area Code"
+                  id="areacode"
+                  placeholder="Area code"
+                  class="the-form-input the-w-45"
+                  required
+                />
+      
+                <input
+                  type="number"
+                  name="Phone Number"
+                  id="phone"
+                  placeholder="Phone number"
+                  class="the-form-input"
+                  required
+                />
+              </div>
+            </div>
+      
+            <div class="the-mb-3">
+              <label for="position" class="the-form-label"> Applying for Position: </label>
+              <input
+                type="text"
+                name="Position Applied"
+                id="position"
+                class="the-form-input"
+                placeholder="Moderator/Administrator/Support Staff"
+                required
+              />
+            </div>
+      
+            <div class="the-mb-3">
+              <label for="startdate" class="the-form-label"> When can you start? </label>
+              <input type="date" name="Start Date" id="startdate" class="the-form-input" required />
+            </div>
+      
+            <div class="the-mb-3">
+              <label for="address" class="the-form-label"> Address </label>
+      
+              <input
+                type="text"
+                name="Address"
+                id="address"
+                placeholder="Street address"
+                class="the-form-input the-mb-3"
+                required
+              />
+              <input
+                type="text"
+                name="Second Address"
+                id="address2"
+                placeholder="Street address line 2"
+                class="the-form-input"
+              />
+            </div>
+      
+            <div class="the-mb-3">
+              <label for="message" class="the-form-label">
+                Why do you want to become a moderator?
+              </label>
+              <textarea
+                rows="6"
+                name="Additional Message"
+                id="message"
+                class="the-form-input"
+              ></textarea>
+            </div>
+      
+      
+            <button class="the-btn">Apply Now</button>
+          </form>
+        </div>
+      </div>
+</body>
+</html>
